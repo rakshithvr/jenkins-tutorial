@@ -2,21 +2,21 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
+        stage('Bmw') {
             steps {
                 // Run build commands
                 sh 'echo "Building project..."'
             }
         }
         
-        stage('Test') {
+        stage('m series') {
             steps {
                 // Run tests
                 sh 'echo "Running tests..."'
             }
         }
         
-        stage('Deploy') {
+        stage('M5') {
             steps {
                 // Deploy step (dummy for now)
                 sh 'echo "Deploying application..."'
