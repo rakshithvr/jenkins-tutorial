@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     stages {
-        stage('Build') {
+        stage('Bmw') {
             steps {
                 // Run build commands
                 sh 'echo "Building project..."'
